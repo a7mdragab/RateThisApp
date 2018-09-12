@@ -70,8 +70,9 @@ RateThisApp.Initialize(mContext)
                 .setNegativeBtnTxt("No, Thanks")
                 .setNeutralBtnTxt("Later")
                 .setThresholdLaunchTimes(10) //after 10 launches it will be shown again if cancelled
-		.setThresholdInstallDays(7)//after 7 days it will be shown even if not opened the threshouldLauchTimes
-                .setNegativeIgnored(true)
+		.setThresholdInstallDays(7)//after 7 days it will be shown even if not opened the thresholdLauchTimes
+                .setNegativeIgnored(true) //if is ignored: when user click no it will be shown again after the thereshold
+		//otherwise:it won't be shown again
                 .setCallback(new RateThisApp.RateAppCallback() {
                     @Override
                     public void onYesClicked() {
@@ -94,4 +95,9 @@ RateThisApp.Initialize(mContext)
                     }
                 })
                 .showRateDialogIfNeeded();
+```
+
+To clear cached data manually
+```
+RateThisApp.Initialize(this).clearCashedRateData();
 ```
