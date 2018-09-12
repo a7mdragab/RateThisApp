@@ -57,7 +57,7 @@ public class RateThisApp {
         mOptOut = mSharedPrefUtil.getRateOptionOut();
         mAskLaterDate = new Date(mSharedPrefUtil.getAskLaterDate());
 
-        mTitle="Rate This App";
+        mTitle = "Rate This App...";
         mMessage="Please rate this app to encourage us to improve this app.";
         mPositiveBtnTxt="Rate Now";
         mNegativeBtnTxt="No, Thanks";
