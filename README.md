@@ -4,6 +4,11 @@
 
 ⚡️A Single line of code can add a beautiful Rate App Dialog in your app. ⚡️
 
+<img src="https://github.com/a7mdragab/RateThisApp/blob/master/ratethisapp/src/main/res/drawable/rateApp.png"
+     alt=""
+     width="400" height="650"
+     style="float: left; margin-right: 10px;" />
+
 + ## Setup
 Gradle dependency (recommended)
 
@@ -20,7 +25,7 @@ allprojects {
 Add this to your app build.gradle:
 ``` 
 dependencies {
-	implementation 'com.github.a7mdragab:RateThisApp:1.0'
+	implementation 'com.github.a7mdragab:RateThisApp:1.1'
 }
 ```
 
