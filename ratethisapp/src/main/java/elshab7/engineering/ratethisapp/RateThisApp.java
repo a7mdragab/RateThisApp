@@ -241,7 +241,7 @@ public class RateThisApp {
     /**
      * RateAppCallback of dialog click event
      */
-    public interface RateAppCallback {
+    private interface RateAppCallback {
 
         /**
          * "Rate now" event
