@@ -69,8 +69,8 @@ RateThisApp.Initialize(mContext)
                 .setPositiveBtnTxt("Rate Now")
                 .setNegativeBtnTxt("No, Thanks")
                 .setNeutralBtnTxt("Later")
-                .setThresholdInstallDays(7)
-                .setThresholdLaunchTimes(10)
+                .setThresholdLaunchTimes(10) //after 10 launches it will be shown again if cancelled
+		.setThresholdInstallDays(7)//after 7 days it will be shown even if not opened the threshouldLauchTimes
                 .setNegativeIgnored(true)
                 .setCallback(new RateThisApp.RateAppCallback() {
                     @Override
