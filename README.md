@@ -25,7 +25,7 @@ allprojects {
 Add this to your app build.gradle:
 ``` 
 dependencies {
-	implementation 'com.github.a7mdragab:RateThisApp:1.1'
+	implementation 'com.github.a7mdragab:RateThisApp:1.2'
 }
 ```
 
