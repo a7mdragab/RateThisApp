@@ -4,7 +4,7 @@
 
 ⚡️A Single line of code can add a beautiful Rate App Dialog in your app. ⚡️
 
-<img src="https://github.com/a7mdragab/RateThisApp/blob/master/ratethisapp/src/main/res/drawable/rateApp.png"
+<img src="https://github.com/a7mdragab/RateThisApp/blob/master/ratethisapp/src/main/res/drawable/rateapp.png"
      alt=""
      width="400" height="650"
      style="float: left; margin-right: 10px;" />
